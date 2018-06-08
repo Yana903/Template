@@ -1,23 +1,20 @@
 :root{
-  --table-width: 100%;
   --table-border-spacing: 0;
-  --table-margin-bottom: 20px;
   --table-background-color: #fff;
   --table-color: #363636;
   --table-text-align: left;
-  --table-td-th-text-align: left;
-  --table-td-th-border: 1px solid #dbdbdb;
-  --table-td-th-border-width: 0 0 1px;
-  --table-td-th-padding: .5em .75em;
-  --table-td-th-vertical-align: top;
-  --table-thead-td-th-border-width: 0 0 2px;
-  --table-tfoot-td-th-border-width: 2px 0 0;
+  --table-cell-text-align: left;
+  --table-cell-border: 1px solid #dbdbdb;
+  --table-cell-border-width: 0 0 1px;
+  --table-cell-vertical-align: top;
+  --table-thead-cell-border-width: 0 0 2px;
+  --table-tfoot-cell-border-width: 2px 0 0;
 }
 table {
   border-collapse: collapse;
-  width: var(--table-width);
+  width: 100%;
   border-spacing: var(--table-border-spacing);
-  margin-bottom: var(--table-margin-bottom);
+  margin-bottom: 20px;
 }
 
 *+table {
@@ -35,19 +32,19 @@ table caption {
 
 table td,
 table th {
-  text-align: var(--table-td-th-text-align);
-  border: var(--table-td-th-border);
-  border-width: var(--table-td-th-border-width);
-  padding: var(--table-td-th-padding);
-  vertical-align: var(--table-td-th-vertical-align);
+  text-align: var(--table-cell-text-align);
+  border: var(--table-cell-border);
+  border-width: var(--table-cell-border-width);
+  padding: .5em .75em;
+  vertical-align: var(--table-cell-vertical-align);
 }
 
 table thead td,
 table thead th {
-  border-width: var(--table-thead-td-th-border-width);
+  border-width: var(--table-thead-cell-border-width);
 }
 
 table tfoot td,
 table tfoot th {
-  border-width: var(--table-tfoot-td-th-border-width);
+  border-width: var(--table-tfoot-cell-border-width);
 }
