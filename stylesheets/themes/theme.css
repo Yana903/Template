@@ -1,28 +1,98 @@
+
 .button-primary {
-    --button-color: #fff;
-    --button-background: var(--global-color-primary);
-    --button-color-hover: #fff;
-    --button-background-hover: var(--global-color-primary-hover);
-    --button-color-focus: #fff;
-    --button-background-focus: var(--global-color-primary-hover);
-    --button-color-active: #fff;
-    --button-background-active: var(--global-color-primary-hover);
+    color: var(--button-color);
+    background: var(--button-background);
+}
+
+.button-primary:hover {
+    color: var(--button-color-hover);
+    background: var(--button-background-hover);
+}
+
+.button-primary:focus {
+    color: var(--button-color-focus);
+    background: var(--button-background-focus);
+}
+
+.button-primary:active {
+    color: var(--button-color-active);
+    background: var(--button-background-active);
 }
 
 .button-secondary {
-    --button-color: #fff;
-    --button-background: var(--global-color-secondary);
-    --button-color-hover: #fff;
-    --button-background-hover: var(--global-color-secondary-hover);
-    --button-color-focus: #fff;
-    --button-background-focus: var(--global-color-secondary-hover);
-    --button-color-active: #fff;
-    --button-background-active: var(--global-color-secondary-hover);
+    color: var(--button-color);
+    background: var(--global-color-secondary);
 }
 
-.button-small {
+.button-secondary:hover {
+    color: var(--button-color-hover);
+    background: var(--global-color-secondary-hover);
+} 
+
+.button-secondary:focus {
+    color: var(--button-color-focus);
+    background: var(--global-color-secondary-hover);
+}
+
+.button-secondary:active {
+    color: var(--button-color-active);
+     background: var(--global-color-secondary-hover);
+}
+
+/*.button-small {
     --button-font-size: 12px;
     --button-font-weight: normal;
     --button-padding: 4px 12px;
     --button-height: 30px;
+}*/
+
+body {
+    font-family: var(--base-font-family); 
+    font-size: var(--base-font-size);
+    font-weight: var(--base-font-weight);
+    line-height: var(--base-line-height);
+    background: var(--base-background);
+    color: var(--base-color);
+}
+
+a{
+    color: var(--base-link-color);
+    text-decoration: var(--base-link-decoration);
+}
+
+a:hover {
+    color: var(--base-link-color-hover);
+    text-decoration: var(--base-link-decoration-hover);
+}
+
+a:focus {
+    color: var(--base-link-color-focus);
+    text-decoration: var(--base-link-decoration-focus);
+}
+
+form {
+   background: var(--input-background);
+   border: var(--input-border);
+   color: var(--input-color);
+   border-radius: var(--input-border-radius);
+}
+
+form:focus {
+    border-color: var(--input-border-color-focus);
+}
+
+form:placeholder {
+    color: var(--placeholder-color);
+}
+
+table {
+    border-spacing: var(--table-border-spacing);
+    background-color: var(--table-background-color);
+    color: var(--table-color);
+}
+
+table td,
+table th {
+  text-align: var(--table-cell-text-align);
+  vertical-align: var(--table-cell-vertical-align);
 }

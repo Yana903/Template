@@ -1,20 +1,20 @@
 :root {
-  --button-color: #222;
-  --button-background: #fff;
+  --button-color: #fff;
+  --button-background: var(--global-color-primary);
   --button-font-family: inherit;
   --button-font-size: 14px;
   --button-font-weight: normal;
   --button-padding: 6px 14px;
-  --button-height: 38px;
+  --button-height: 26px;
 
-  --button-color-hover: #222;
-  --button-background-hover: #fff;
+  --button-color-hover: #fff;
+  --button-background-hover: var(--global-color-primary-hover);
 
-  --button-color-focus: #222;
-  --button-background-focus: #fff;
+  --button-color-focus: #fff;
+  --button-background-focus: var(--global-color-primary-hover);
 
-  --button-color-active: #222;
-  --button-background-active: #fff;
+  --button-color-active: #fff;
+  --button-background-active: var(--global-color-primary-hover);
 }
 
 .button {

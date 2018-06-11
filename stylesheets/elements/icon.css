@@ -32,3 +32,33 @@ svg[class*=" icon-"] {
   stroke: currentColor;
   fill: currentColor;
 }
+
+.pagination-icon {
+  width: 5px;
+  height: 5px;
+  margin-top: 4px;
+  margin-left: 5px;
+  margin-right: 18px;
+  color: #7d7d7d;
+}
+
+.fas {
+color: #24b6e2;
+}
+
+.social {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 8px;
+  background: #b8b8b8;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 50%;
+}
+
+.social:hover {
+  color: #fff;
+  background: #23b5e1;
+}

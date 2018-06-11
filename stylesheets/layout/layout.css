@@ -1,0 +1,17 @@
+.layout{
+	display: flex;
+	max-width: 980px;
+	margin: 0 auto;
+	border-bottom: 1px dotted #cbcbcb;
+}
+
+.main-content {
+	max-width: 695px;
+	flex-grow: 1;
+}
+
+.sidebar {
+	max-width: 285px;
+	padding-left: 34px;
+	flex-grow: 1;
+}

@@ -1,12 +1,12 @@
 :root{
   --input-background: #fff;
-  --input-border: 1px solid #e5e5e5;
-  --input-color: #212529;
+  --input-border: 1px solid #c8c8c8;
+  --input-color: #000;
   --input-box-shadow: 0 0 0 0 transparent inset;
-  --input-border-radius: 0;
-  --input-border-color-focus: #ccc;
+  --input-border-radius: 2px;
+  --input-border-color-focus: #409b98;
 
-  --placeholder-color: rgba(191, 191, 191, .87);
+  --placeholder-color: #969696;
   --placeholder-opacity: 1;
 
   --radio-checkbox-height: 16px;
@@ -144,7 +144,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   padding: 6px 14px;
-  min-height: 38px;
+  min-height: 30px;
   background: var(--input-background);
   border: var(--input-border);
   color: var(--input-color);
